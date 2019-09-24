@@ -24,5 +24,4 @@ class Artist
     @song_count = Song.all.length
   end
   
-  #binding.pry
 end
