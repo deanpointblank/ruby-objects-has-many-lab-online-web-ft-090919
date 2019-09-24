@@ -6,7 +6,9 @@ class Author
   end
   
   def posts
-    
+    Post.all.select do |post|
+      
+    end
   end
   
 end
