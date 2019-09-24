@@ -7,6 +7,8 @@ class Posts
     
   end
   
-  
+  def self.all
+    
+  end
   
 end
