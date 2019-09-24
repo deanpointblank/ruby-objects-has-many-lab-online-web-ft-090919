@@ -12,6 +12,7 @@ class Post
   end
   
   def author_name
+    if 
     @author_name = self.author.name
   end
   
