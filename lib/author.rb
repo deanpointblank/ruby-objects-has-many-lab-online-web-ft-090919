@@ -5,8 +5,8 @@ class Author
     @name = name
   end
   
-  def
-  
+  def posts
+    
   end
   
 end
