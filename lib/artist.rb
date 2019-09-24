@@ -1,7 +1,7 @@
 require "pry"
 
 class Artist
-  attr_accessor :name, :song_count
+  attr_accessor :name
   
   def initialize(name)
     @name = name
@@ -24,5 +24,4 @@ class Artist
     @song_count = Song.all.length
   end
   
-  #binding.pry
 end
