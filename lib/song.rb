@@ -12,7 +12,7 @@ class Song
   end
   
   def artist_name
-    self.aritst ? @aritst = self.aritst.name
+    self.aritst ? @aritst = self.aritst.name : nil
   end
   
 end
