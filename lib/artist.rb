@@ -21,7 +21,7 @@ class Artist
   end
   
   def song_count
-    @@song_count = Song.all.length
+    @song_count = Song.all.length
   end
   
   #binding.pry
